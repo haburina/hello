@@ -12,6 +12,7 @@ var main = function() {
     
     if(nextSlide.length == 0) {
       nextSlide = $('.slide').first();
+      nextDot = $('.dot').first();
     }
 
     currentSlide.fadeOut(600).removeClass('active-slide');

@@ -8,6 +8,9 @@ var main = function() {
   });
   
   $(document).keypress(function(event) {
+    if(event.which === 111) {
+      $('.current').children('.description').toggle();
+    }
   });
 }
 

@@ -1,5 +1,5 @@
-var main=function() {
-  $('.article').click(function) {
+var main = function() {
+  $('.article').click(function()) {
     $('.article').removeClass('current');
     $('.description').hide();
     

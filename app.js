@@ -6,6 +6,9 @@ var main = function() {
     $(this).addClass('.current');
     $(this).children('.description').show();
   });
+  
+  $(document).keypress(function(event) {
+  });
 }
 
 $(document).ready(main);

@@ -26,6 +26,10 @@ var main = function() {
     var currentSlide = $('.active-slide');
     var prevSlide = currentSlide.prev();
     
+    if(prevSlide.length ==0) {
+      prevSlide = $('.slide').last();
+    }
+
     currentSlide.fadeOut(600).removeClass('active-slide');
     prevSlide.fadeIn(600).addClass('active-slide');
   });

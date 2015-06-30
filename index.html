@@ -25,360 +25,6 @@
     </div>
 
     <div class="container">
-      <h3>Inline form</h3>
-      <form class="form-inline" role="form">
-        <div class="form-group">
-          <label for="email">Email:</label>
-          <input type="email" class="form-control" id="email" placeholder="Enter email">
-        </div>
-        <div class="form-group">
-          <label for="pwd">Password:</label>
-          <input type="password" class="form-control" id="pwd" placeholder="Enter password">
-        </div>
-        <div class="checkbox">
-          <label><input type="checkbox"> Remember me</label>
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
-    </div>
-
-    <div class="container">
-      <h3>Horizontal form</h3>
-      <form class="form-horizontal" role="form">
-        <div class="form-group">
-          <label class="control-label col-sm-2" for="email">Email:</label>
-          <div class="col-sm-10">
-            <input type="email" class="form-control" id="email" placeholder="Enter email">
-          </div>
-        </div>
-        <div class="form-group">
-          <label class="control-label col-sm-2" for="pwd">Password:</label>
-          <div class="col-sm-10">          
-            <input type="password" class="form-control" id="pwd" placeholder="Enter password">
-          </div>
-        </div>
-        <div class="form-group">        
-          <div class="col-sm-offset-2 col-sm-10">
-            <div class="checkbox">
-              <label><input type="checkbox"> Remember me</label>
-            </div>
-          </div>
-        </div>
-        <div class="form-group">        
-          <div class="col-sm-offset-2 col-sm-10">
-            <button type="submit" class="btn btn-default">Submit</button>
-          </div>
-        </div>
-      </form>
-    </div>
-
-    <div class="container">
-      <h3>Form control: input</h3>
-      <form role="form">
-        <div class="form-group">
-          <label for="usr">Name:</label>
-          <input type="text" class="form-control" id="usr">
-        </div>
-        <div class="form-group">
-          <label for="pwd">Password:</label>
-          <input type="password" class="form-control" id="pwd">
-        </div>
-      </form>
-    </div>
-
-    <div class="container">
-      <h3>Bootstrap Textarea</h3>
-      <div class="form-group">
-        <label for="comment">Comment:</label>
-        <textarea class="form-control" rows="5" id="comment"></textarea>
-      </div>
-    </div>
-
-    <div class="container">
-      <h3>Bootstrap Checkboxes</h3>
-      <div class="checkbox">
-        <label><input type="checkbox" value="">Option 1</label
-      </div>
-      <div class="checkbox">
-        <label><input type="checkbox" value="">Option 2</label
-      </div>
-      <div class="checkbox">
-        <label><input type="checkbox" value="" disabled>Option 3</label
-      </div>
-    </div>
-
-    <div class="container">
-      <h3>Form control: inline checkbox</h3>
-      <form role="form">
-        <label class="checkbox-inline">
-          <input type="checkbox" value="">Option 1
-        </label>
-        <label class="checkbox-inline">
-          <input type="checkbox" value="">Option 2
-        </label>
-        <label class="checkbox-inline">
-          <input type="checkbox" value="">Option 3
-        </label>
-      </form>
-    </div>
-
-    <div class="container">
-      <h3>Form control: radio buttons</h3>
-      <form role="form">
-        <div class="radio">
-          <label><input type="radio" name="optradio">Option 1</label>
-        </div>
-        <div class="radio">
-          <label><input type="radio" name="optradio">Option 2</label>
-        </div>
-        <div class="radio">
-          <label><input type="radio" name="optradio" disabled>Option 3</label>
-        </div>
-      </form>
-    </div>
-
-    <div class="container">
-      <h3>Form control: inline radio buttons</h3>
-      <form role="form">
-          <label class="radio-inline">
-            <input type="radio" name="optradio">Option 1
-          </label>
-          <label class="radio-inline">
-            <input type="radio" name="optradio">Option 2
-          </label>
-          <label class="radio-inline">
-            <input type="radio" name="optradio">Option 3
-          </label>
-      </form>
-    </div>
-
-    <div class="container">
-      <h3>Form control: select</h3>
-      <form role="form">
-        <div class="form-group">
-          <label for="sel1">Select list (select one):</label>
-          <select class="form-control" id="sel1">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-          </select>
-          <br>
-          <label for="sel2">Mutiple select list (hold shift to select more than one):</label>
-          <select multiple class="form-control" id="sel2">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
-          </select>
-        </div>
-      </form>
-    </div>
-
-    <div class="container">
-      <h3>Horizontal form with static control</h3>
-      <form class="form-horizontal" role="form">
-        <div class="form-group">
-          <label class="control-label col-sm-2" for="email">Email:</label>
-          <div class="col-sm-10">
-            <p class="form-control-static">someone@example.com</p>
-          </div>
-        </div>
-        <div class="form-group">
-          <label class="control-label col-sm-2" for="pwd">Password:</label>
-          <div class="col-sm-10">
-            <input type="password" class="form-control" id="pwd" placeholder="Enter password">
-          </div>
-        </div>
-        <div class="form-group">
-          <div class="col-sm-offset-2 col-sm-10">
-            <button type="submit" class="btn btn-default">Submit</button>
-          </div>
-        </div>
-      </form>
-    </div>
-
-    <div class="container">
-      <h3>Horizontal form: control states</h3>
-      <form class="form-horizontal" role="form">
-        <div class="form-group">
-          <label class="col-sm-2 control-label">Focused</label>
-          <div class="col-sm-10">
-            <input class="form-control" id="focusedInput" type="text" value="Click to focus...">
-          </div>
-        </div>
-        <div class="form-group">
-      <label for="inputPassword" class="col-sm-2 control-label">Disabled</label>
-      <div class="col-sm-10">
-        <input class="form-control" id="disabledInput" type="text" placeholder="Disabled input here..." disabled>
-      </div>
-    </div>
-        <fieldset disabled>
-          <div class="form-group">
-            <label for="disabledTextInput" class="col-sm-2 control-label">Disabled input and select list (Fieldset disabled)
-            </label>
-            <div class="col-sm-10">
-              <input type="text" id="disabledTextInput" class="form-control" placeholder="Disabled input">
-            </div>
-          </div>
-          <div class="form-group">
-            <label for="disabledSelect" class="col-sm-2 control-label"></label>
-            <div class="col-sm-10">
-              <select id="disabledSelect" class="form-control">
-                <option>Disabled select</option>
-              </select>
-            </div>
-          </div>
-        </fieldset>
-        <div class="form-group has-success has-feedback">
-          <label class="col-sm-2 control-label" for="inputSuccess">Input with success and glyphicon</label>
-          <div class="col-sm-10">
-            <input type="text" class="form-control" id="inputSuccess">
-            <span class="glyphicon glyphicon-ok form-control-feedback"></span>
-          </div>
-        </div>
-        <div class="form-group has-warning has-feedback">
-          <label class="col-sm-2 control-label" for="inputWarning">Input with warning and glyphicon</label>
-          <div class="col-sm-10">
-            <input type="text" class="form-control" id="inputWarning">
-            <span class="glyphicon glyphicon-warning-sign form-control-feedback"></span>
-          </div>
-        </div>
-        <div class="form-group has-error has-feedback">
-          <label class="col-sm-2 control-label" for="inputError">Input with error and glyphicon</label>
-          <div class="col-sm-10">
-            <input type="text" class="form-control" id="inputError">
-            <span class="glyphicon glyphicon-remove form-control-feedback"></span>
-          </div>
-        </div>
-      </form>
-    </div>
-
-    <div class="container">
-      <h3>Inline form: control states</h3>
-      <form class="form-inline" role="form">
-        <div class="form-group">
-          <label for="focusedInput">Focused</label>
-          <input class="form-control" id="focusedInput" type="text">
-        </div>
-        <div class="form-group">
-          <label for="inputPassword">Disabled</label>
-          <input class="form-control" id="disabledInput" type="text" disabled>
-        </div>
-        <div class="form-group has-success has-feedback">
-          <label for="inputSuccess2">Input with success</label>
-          <input type="text" class="form-control" id="inputSuccess2">
-          <span class="glyphicon glyphicon-ok form-control-feedback"></span>
-        </div>
-        <div class="form-group has-warning has-feedback">
-          <label for="inputWarning2">Input with warning</label>
-          <input type="text" class="form-control" id="inputWarning2">
-          <span class="glyphicon glyphicon-warning-sign form-control-feedback"></span>
-        </div>
-        <div class="form-group has-error has-feedback">
-          <label for="inputError2">Input with error</label>
-          <input type="text" class="form-control" id="inputError2">
-          <span class="glyphicon glyphicon-remove form-control-feedback"></span>
-        </div>
-      </form>
-    </div>
-
-    <div class="container">
-      <h3>Input Sizing</h3>
-      <form role="form">
-        <div class="form-group">
-          <label for="inputdefault">Default input</label>
-          <input class="form-control" id="inputdefault" type="text">
-        </div>
-        <div class="form-group">
-          <label for="inputlg">input-lg</label>
-          <input class="form-control input-lg" id="inputlg" type="text">
-        </div>
-        <div class="form-group">
-          <label for="inputsm">input-sm</label>
-          <input class="form-control input-sm" id="inputsm" type="text">
-        </div>
-        <div class="form-group">
-          <label for="sel1">Default select list</label>
-          <select class="form-control" id="sel1">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label for="sel2">input-lg</label>
-          <select class="form-control input-lg" id="sel2">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label for="sel3">input-sm</label>
-          <select class="form-control input-sm" id="sel3">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-          </select>
-        </div>
-      </form>
-    </div>
-
-    <div class="container">
-      <h3>Input Sizing</h3>
-      <form class="form-horizontal" role="form">
-        <div class="form-group form-group-lg">
-          <label class="col-sm-2 control-label" for="lg">form-group-lg</label>
-          <div class="col-sm-10">
-            <input class="form-control" type="text" id="lg">
-          </div>
-        </div>
-        <div class="form-group form-group-sm">
-          <label class="col-sm-2 control-label" for="sm">form-group-sm</label>
-          <div class="col-sm-10">
-            <input class="form-control" type="text" id="sm">
-          </div>
-        </div>
-      </form>
-    </div>
-
-    <div class="container">
-      <h3>Column Sizing</h3>
-      <form role="form">
-        <div class="form-group">
-          <div class="col-xs-2">
-            <label for="ex1">col-xs-2</label>
-            <input class="form-control" id="ex1" type="text">
-          </div>
-          <div class="col-xs-3">
-            <label for="ex2">col-xs-3</label>
-            <input class="form-control" id="ex2" type="text">
-          </div>
-          <div class="col-xs-4">
-            <label for="ex3">col-xs-4</label>
-            <input class="form-control" id="ex3" type="text">
-          </div>
-        </div>
-      </form>
-    </div>
-
-    <div class="container">
-      <h3>Help text</h3>
-      <form role="form">
-        <div class="form-group">
-          <label for="pwd">Password:</label>
-          <input type="password" class="form-control" id="pwd" placeholder="Enter password">
-          <span class="help-block">This is some help text that breaks onto a new line and may extend more than one line.</span>
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
-    </div>
-
-    <div class="container">
-      <h3>Carousel</h3>
       <br>
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
@@ -391,21 +37,39 @@
 
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
+
           <div class="item active">
-            <img src="https://s-media-cache-ak0.pinimg.com/736x/d6/6e/9d/d66e9d854aa9db3959810d085da51c9b.jpg" alt="Chania" width="230" height="170">
+            <img src="https://s-media-cache-ak0.pinimg.com/736x/8e/1c/03/8e1c0320bd413b938dc88833883d6e0c.jpg" alt="fig"width="398" height="450">
+            <div class="carousel-caption">
+              <h3>Fig</h3>
+              <p>This is fig. Yes.</p>
+            </div>
           </div>
 
           <div class="item">
-            <img src="https://s-media-cache-ak0.pinimg.com/736x/37/e8/24/37e8244c76c1bd15f43920b81684237c.jpg" alt="Chania" width="230" height="170">
+            <img src="https://s-media-cache-ak0.pinimg.com/736x/99/95/4c/99954c021e8cc72ba153521a10024a06.jpg" alt="elk" width="398" height="450">
+            <div class="carousel-caption">
+              <h3>Elk</h3>
+              <p>This is elk. Yes.</p>
+            </div>
           </div>
 
           <div class="item">
-            <img src="https://s-media-cache-ak0.pinimg.com/736x/7b/0f/ae/7b0faec065f8e356112629c9bd55a8a0.jpg" alt="Flower" width="230" height="170">
+            <img src="https://s-media-cache-ak0.pinimg.com/736x/0e/7f/63/0e7f63f8815e56fbb43d439fa40e7667.jpg" alt="snow" width="398" height="450">
+            <div class="carousel-caption">
+              <h3>Snow</h3>
+              <p>This is snow. Yes.</p>
+            </div>
           </div>
 
           <div class="item">
-            <img src="https://s-media-cache-ak0.pinimg.com/736x/dd/d1/b7/ddd1b74a4315c72047f1ab42d31b7cce.jpg" alt="Flower" width="230" height="170">
+            <img src="https://s-media-cache-ak0.pinimg.com/736x/e7/63/50/e76350f13bcfc5ca7f4a25bdada72a75.jpg" alt="coffee" width="398" height="450">
+            <div class="carousel-caption">
+              <h3>Coffee</h3>
+              <p>This is coffee. Yes.</p>
+            </div>
           </div>
+        
         </div>
 
         <!-- Left and right controls -->
@@ -417,6 +81,7 @@
           <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
+
       </div>
     </div>
 

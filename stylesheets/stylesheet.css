@@ -1,3 +1,7 @@
-p {
-  text-align: center;
+h5 {
+	padding: 10px 0 0 0;
+}
+
+#support {
+    text-decoration: none;
 }

@@ -17,3 +17,8 @@ html, body {
     -o-background-size: cover;
     background-size: cover;
 }
+
+.nav {
+    margin: o;
+    padding: 20px 0;
+}

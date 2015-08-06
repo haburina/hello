@@ -36,6 +36,7 @@ html, body {
     font-weight: 600;
     font-size: 12px;
     text-transform: uppercase;
+    padding-right: 60px;
 }
 
 .main {

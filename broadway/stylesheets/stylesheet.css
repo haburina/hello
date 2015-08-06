@@ -30,3 +30,9 @@ html, body {
     font-weight: 600;
     font-size: 12px;
 }
+
+.main {
+    position: relative;
+    top: 180px;
+    text-align: center;
+}

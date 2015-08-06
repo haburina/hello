@@ -61,6 +61,7 @@ html, body {
 
 .btn-main a {
     color: #ffffff;
+    text-decoration: none;
 }
 
 .supporting {

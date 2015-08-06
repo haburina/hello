@@ -11,11 +11,11 @@ html, body {
 
 .jumbotron {
     height: 800px;
-    background-image: url("/broadway/images/broadway_background.png") no-repeat center center fixed;
-    /* -webkit-background-size: cover;
+    background: url("/broadway/images/broadway_background.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;   */
+    background-size: cover;  
 }
 
 .nav {

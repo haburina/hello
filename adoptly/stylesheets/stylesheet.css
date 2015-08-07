@@ -2,6 +2,7 @@ html, body {
 	font-family: "Montserrat", sans-serif;
 }
 
-.ul .li {
+.ul li {
+	color: #ffffff;
 	padding-right: 40px;
 }

@@ -8,6 +8,14 @@ html, body {
 	background-color: #30627E;
 }
 
+.jumbotron {
+	background: url(adoptly/images/adoptly_background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 .jumbotron h1 {
 	color: #E52364;
 }

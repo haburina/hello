@@ -10,7 +10,7 @@ html, body {
 
 .jumbotron {
 	height: 500px;
-	background: url("/adoptly/images/adoptly_background.jpg") no-repeat center center fixed;
+	background: url("/adoptly/images/adoptly_background.jpg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

@@ -27,3 +27,8 @@ html, body {
 	margin: 20px 0 0 10px;
 	text-align: center;
 }
+
+.supporting {
+	text-align: center;
+	padding: 60px 30px 80px 30px;
+}

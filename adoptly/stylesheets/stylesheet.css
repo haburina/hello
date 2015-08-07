@@ -19,4 +19,11 @@ html, body {
 
 .jumbotron h1 {
 	color: #E52364;
+	display: block;
+	font-family: "Montserrat", sans-serif;
+	font-weight: bold;
+	font-size: 63px;
+	line-height: 69.3000030517578px;
+	margin: 20px 0 0 10px;
+	text-align: center;
 }

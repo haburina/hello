@@ -32,3 +32,9 @@ html, body {
 	text-align: center;
 	padding: 30px 30px 50px 30px;
 }
+
+.supporting p {
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	min-height: 80px;
+}

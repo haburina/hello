@@ -2,9 +2,7 @@ html, body {
 	font-family: "Montserrat", sans-serif;
 }
 
-.navbar-inverse {
-	border-radius: 0;
-	background-image: none;
+.header {
 	background-color: #30627E;
 }
 

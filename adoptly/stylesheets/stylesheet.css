@@ -4,5 +4,6 @@ html, body {
 
 .navbar-inverse {
 	border-radius: 0;
+	background-image: none;
 	background-color: #30627E;
 }

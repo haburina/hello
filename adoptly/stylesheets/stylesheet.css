@@ -6,12 +6,27 @@ html, body {
 	display: block;
 }
 
+.container {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0;
+}
+
 .header {
 	background-color: #30627E;
 }
 
 .header .ul {
 	list-style: none;
+	text-align: center;
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+}
+
+.header .main {
+	font-size: 28px;
+	background-color: #e52364;
 }
 
 .header li {

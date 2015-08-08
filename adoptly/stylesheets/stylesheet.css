@@ -68,6 +68,17 @@ html, body {
 	min-height: 80px;
 }
 
+.btn {
+	font-size: 16px;
+	border-radius: 0px;
+	margin: 20px auto 60px;
+	padding: 10px 20px;
+	color: #30627E;
+	width: 200px;
+	border: 1px solid #30627E;
+	text-transform: uppercase;
+}
+
 .footer {
 	color: #ffffff;
 	background-color: #e52364;

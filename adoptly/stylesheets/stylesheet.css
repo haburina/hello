@@ -6,6 +6,11 @@ html, body {
 	background-color: #30627E;
 }
 
+li {
+	display: list-item;
+    text-align: -webkit-match-parent;
+}
+
 .jumbotron {
 	height: 500px;
 	background: url("/adoptly/images/adoptly_background.jpg") no-repeat center center;

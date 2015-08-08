@@ -2,6 +2,10 @@ html, body {
 	font-family: "Montserrat", sans-serif;
 }
 
+.div {
+	display: block;
+}
+
 .header {
 	background-color: #30627E;
 }

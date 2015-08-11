@@ -1,3 +1,8 @@
-h5 {
-	padding: 10px 0 0 0;
+.jumbotron {
+	height: 500px;
+	background: url(/images/haburina_background.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }

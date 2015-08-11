@@ -9,7 +9,7 @@
 }
 
 .jumbotron {
-	height: 760px;
+	height: 600px;
 	background: url("/images/haburina_background.jpg") no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -19,4 +19,5 @@
 
 .jumbotron h1 {
 	color: #333333;
+	text-align: center;
 }

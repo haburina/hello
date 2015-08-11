@@ -1,6 +1,15 @@
+.div {
+	display: block;
+}
+
+.container {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0;
+}
+
 .jumbotron {
-	height: 500px;
-	background: url(/images/haburina_background.jpg) no-repeat center center;
+	background: url("/images/haburina_background.jpg") no-repeat center center;
 	-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

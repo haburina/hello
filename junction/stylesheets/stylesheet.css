@@ -56,6 +56,25 @@ body {
 	text-shadow: 0 2px 3px rgba(0,0,0,.4);
 }
 
+.supporting {
+	margin-top: 40px;
+	text-shadow: 0 2px 3px rgba(0,0,0,.4);
+}
+
+.supporting .col-md-4 {
+	text-align: center;
+	color: #ffffff;
+	margin-bottom: 40px;
+}
+
+.supporting h2 {
+	font-size: 25px;
+}
+
+.supporting p {
+	font-size: 16px;
+}
+
 
 
 

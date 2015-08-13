@@ -5,7 +5,7 @@ html, body {
 }
 
 body {
-	background-image: url("/pocketbook/images/pocketbook_background.jpg") no-repeat center center fixed;
+	background: url("/pocketbook/images/pocketbook_background.jpg") no-repeat center center fixed;
 	background-size: cover;
 	background-color: #140e07;
 	color: #fff;

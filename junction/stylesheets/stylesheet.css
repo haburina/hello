@@ -75,6 +75,29 @@ body {
 	font-size: 16px;
 }
 
+.download {
+	position: relative;
+	top: 80px;
+	text-align: center;
+}
+
+.btn-default {
+	background: rgba(0,255,188,0.5);
+	border: none;
+	border-radius: 8px;
+	color: #ffffff;
+	font-size: 18px;
+	letter-spacing: 1.3px;
+	padding: 10px 60px;
+	margin-bottom: 100px;
+}
+
+.btn-default:hover {
+	background: rgba(0,0,0,0.5);
+	border: none;
+	color: #ffffff;
+}
+
 
 
 

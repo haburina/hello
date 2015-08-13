@@ -36,3 +36,11 @@ body {
 	margin-right: 30px;
 	padding: 0 0 5px;
 }
+
+.nav li: hover {
+	border-bottom: 1px solid #00ffbc;
+	color: #00ffbc;
+	cursor: pointer;
+}
+
+

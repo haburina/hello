@@ -18,3 +18,21 @@ body {
 	height: 60px;
 	padding: 10px 0;
 }
+
+.logo {
+	margin: 0 30px 0;
+}
+
+.nav {
+	display: inline-block;
+	margin: 0;
+	padding: 8px 0;
+}
+
+.nav li {
+	color: #ffffff;
+	display: inline;
+	font-size: 14px;
+	margin-right: 30px;
+	padding: 0 0 5px;
+}

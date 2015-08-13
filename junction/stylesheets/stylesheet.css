@@ -8,3 +8,13 @@ body {
 	background: url("/junction/images/junction_background.jpg") no-repeat center center fixed;
 	background-size: cover;
 }
+
+.container {
+	max-width: 940px;
+}
+
+.header {
+	background: rgba(0, 0, 0, .5);
+	height: 60px;
+	padding: 10px 0;
+}

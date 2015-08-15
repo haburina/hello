@@ -58,6 +58,36 @@ a {
 	transition:box-shadow 0.25s;
 }
 
+.section {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-bottom: 1px solid #dbdbdb; 
+}
+
+.store {
+	text-align: center;
+	border-bottom: 0px;
+	padding-bottom: 100px;
+}
+
+.store img {
+	margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

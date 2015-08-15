@@ -67,6 +67,10 @@ p {
 	margin-bottom: 10px;
 }
 
+.clearfix {
+	clear: both;
+}
+
 .supporting p {
 	color: #efefef;
 	margin-bottom: 20px;
@@ -81,6 +85,25 @@ p {
 	padding: 8px 30px;
 	text-decoration: none;
 	display: inline-block;
+}
+
+.feature {
+	background: url("/move/images/move_feature.jpg") no-repeat center center;
+	background-size: cover;
+	height: 600px;
+	text-align: center;
+}
+
+.feature .container {
+	position: relative;
+	top: 200px;
+}
+
+.feature h2 {
+	color: #fff;
+	font-size: 40px;
+	margin: 0;
+	padding: 50px 0 0;
 }
 
 

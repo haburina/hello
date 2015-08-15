@@ -7,3 +7,12 @@ h1, h2, a {
 	text-transform: uppercase;
 }
 
+p {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.container {
+	max-width: 940px;
+	margin: 0 auto;
+}
+

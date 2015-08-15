@@ -31,7 +31,7 @@ a {
 }
 
 .main {
-	background-image: url("/shutterbugg/images/shutterbugg_background.jpg");
+	background: url("/shutterbugg/images/shutterbugg_background.jpg");
 	height: 550px;
 	padding-top: 55px;
 }

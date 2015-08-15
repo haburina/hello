@@ -16,3 +16,45 @@ p {
 	margin: 0 auto;
 }
 
+.main {
+	text-align: center;
+	background: url("/move/images/move_background.jpg") no-repeat center center;
+	background-size: cover;
+	height: 600px;
+}
+
+.main .container {
+	position: relative;
+	top: 100px;
+}
+
+.main h1 {
+	color: #fff;
+	margin: 0;
+	font-size: 150px;
+}
+
+.main p {
+	color: #fff;
+	margin: 0 0 20px 0;
+	font-size: 18px;
+}
+
+.main .btn {
+	background-color: #1c1c1c;
+	color: #fff;
+	font-size: 18px;
+	padding: 8px 30px;
+	text-decoration: none;
+	display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+

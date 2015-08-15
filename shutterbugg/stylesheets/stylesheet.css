@@ -30,3 +30,8 @@ a {
 	font-weight: 200;
 }
 
+.main {
+	background-image: url("/shutterbugg/images/shutterbugg_background.jpg");
+	height: 550px;
+	padding-top: 55px;
+}

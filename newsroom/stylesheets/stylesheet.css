@@ -80,7 +80,11 @@ h1, h2, h3, h4, h5, h6 {
 	background: transparent;
 }
 
-
+.main {
+	background: url("/newsroom/images/newsroom_background.jpg") no-repeat center;
+	background-size: cover;
+	height: 500px;
+}
 
 
 

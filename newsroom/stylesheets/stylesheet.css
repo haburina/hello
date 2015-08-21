@@ -66,6 +66,22 @@ h1, h2, h3, h4, h5, h6 {
 	text-align: center;
 }
 
+.menu ul.nav li:hover, .menu ul.nav li.active {
+	background: #1a77ff;
+}
+
+.menu ul.nav li a {
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+.menu ul.nav li a:hover {
+	background: transparent;
+}
+
+
+
 
 
 
